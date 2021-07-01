@@ -1,0 +1,21 @@
+body
+{
+    background-color:rgb(231, 252, 253);
+    font-family: 'Kirang Haerang', cursive;
+   
+
+}
+.forms
+{
+    width:500px;
+    color: white;
+    border: 3px solid rgb(127, 253, 127);
+    border-radius: 10px;
+    background-color: rgb(182, 121, 121);
+    padding: 25px;
+    margin-right: 500px;
+
+    
+}
+
+

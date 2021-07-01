@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kirang+Haerang&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="tut19.css">
+    
+    <link rel="stylesheet" href="dhairya.css">
+</head>
+<body>
+    <h2>JOb </h2>
+
+   <p> Dhairya solves our clients' toughest challenges by providing unmatched services in strategy & consulting, interactive, technology and operations but this is only your imagination we will not provide you any type of job</p>
+    <form action="backend.php">
+       
+        <div class="forms">
+            <label for="name">Name</label>
+
+            <input type="text" name="myName" id="name">
+
+        </div>
+        <br>
+        <div class="forms" style="position:relative; top:-100px; right:-600px;">
+
+            hobby:<input type="text" name="myjob">
+
+        </div>
+        <br>
+        <div class="forms">
+
+            email:<input type="email" name="my Email" >
+        </div>
+        <br>
+        <div class="forms"style=" position:relative; top:-100px; right:-600px;">
+
+            DOB:<input type="date" name="myBday">
+        </div>
+        <br>
+        
+        <div class="forms">
+
+            Age: <input type="number" name="myAge" min="0" max="100">
+        </div>
+        <br>
+        <div class="forms" style="position:relative; top:-100px; right:-600px;"">
+
+           Password: <input type="password" name="mypass">
+        </div>
+        <br>
+        <div class="forms">
+
+           proof of highest qualification: <input type="file" name="myfile">
+        </div>
+        <br>
+       
+        
+        <div class="forms" style="position:relative; top:-100px; right:-600px;">
+
+           Are you eligible: 
+           <br>
+           do you have a masters or equivalent or higher;<input type="checkbox" name="" id="">
+           <br>
+           do you have 15 years experience in management jobs;<input type="checkbox" name="" id="">
+           <br>
+           are you married;<input type="checkbox" name="" id="">
+        </div>
+        <br>
+        <div class="forms">
+            
+
+          Gender: male<input type="radio" name="mygender">;
+                  female<input type="radio" name="mygender">;
+                  other<input type="radio" name="mygender">
+        </div>
+        <br>
+        <div class="forms" style ="position:relative; top:-100px; right:-600px;">
+            <footer>about yourself:</footer>
+
+          
+          <textarea name="myinfo" id="info" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div class="forms">
+            <label for="favc">fav.color</label>
+
+            <input type="color" name="myfavcol" id="favc">
+        </div>
+        <br>
+        <div class="forms" style= "position:relative; top:-100px; right:-600px;">
+            
+
+            <label for="car">Choose your car</label>
+            <select name="mycar" id="car">
+            <option value="merc">mercedes benz S class</option>
+            <option value="bmw">BMW 7 series</option>
+            <option value="tonga">tonga</option>
+             </select>
+        </div>
+        <br>
+        <div class="forms">
+            <input type="submit" value="Submit the data">
+            <input type="reset" value="reset">
+        </div>
+
+
+    </form>
+</body>
+</html>
